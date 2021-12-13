@@ -1,0 +1,7 @@
+.row-menu {
+    background: rgb(3,77,140);
+    background: linear-gradient(86deg, rgba(3,77,140,1) 0%, rgba(5,177,241,1) 60%); 
+    max-width: 100%;
+    height: 500px; 
+    background: cover;
+}
