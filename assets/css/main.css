@@ -1,7 +1,26 @@
 .row-menu {
     background: rgb(3,77,140);
     background: linear-gradient(86deg, rgba(3,77,140,1) 0%, rgba(5,177,241,1) 60%); 
-    max-width: 100%;
+    /* max-width: 100%; */
     height: 500px; 
-    background: cover;
 }
+fas fa-user-friends {
+    margin-top: -1.5%;
+    margin-left:-1.5%;
+    position: absolute;
+}
+.form {
+    background-color: #4654e1;
+    width: 500px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  input{
+      background-color: aquamarine;
+  }
+  .row-1 h6,h7{
+    display: inline;
+  }
