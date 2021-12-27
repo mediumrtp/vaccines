@@ -87,5 +87,17 @@ input {
  
 }
 
-.col-sm-12 button {
+/* .col-sm-12 .btn btn-outline-success {
+  color: red;
+} */
+
+.efpia{
+  background: linear-gradient(
+    86deg,
+    rgba(135, 195, 49, 1) 0%,
+    rgba(7, 178, 238, 1) 65%);
+   margin-top: 50px;
+  text-align: center;
+  padding-top: 150px;
+  color: darkblue;
 }
