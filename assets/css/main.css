@@ -6,7 +6,63 @@
     rgba(5, 177, 241, 1) 60%
   );
   max-width: 100%;
-  /* height: 500px;  */
+}
+.col-sm-6 img{
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.row-menu{
+  padding-top: 30px;
+  color: white;
+}
+.col-sm-4-members-area h6{
+  float: left;
+  color: white;
+  margin-left: 30px;
+  margin-top: 20px;
+  position: absolute;
+  font-size: 17.3px;
+}
+.col-sm-4-search h6{
+  float: left;
+  color: white;
+  margin-left: 30px;
+  margin-top: 20px;
+  position: absolute;
+  font-size: 17.3px;
+}
+.col-sm-4-menu h6{
+  float: left;
+  color: white;
+  margin-left: 30px;
+  margin-top: 20px;
+  position: absolute;
+  font-size: 17.3px;
+}
+.row-search h2{
+  font-size: 42.6px;
+  font-family: myriad-pro;
+}
+.row-search .col-sm-12-search p{
+  font-size: 29.3px;
+}
+.col-sm-12-search input{
+  text-align: left; 
+  color: white; 
+  font-size: 25px;
+}
+.col-sm-12-button{
+  color: gray;
+}
+.row-contenttype {
+  margin-top: 100px; 
+  text-align: center;
+  
+}
+.button{
+  border-top-style:solid 5px green;
+  border-bottom-style:none;
+  
 }
 .container-fluid-heder{
   background: rgb(3, 77, 140);
@@ -17,25 +73,18 @@
   );
   text-align: center;
   color: white;
+}
+.col-sm-12 p{
+  font-size: 20px;
+}
+.row-search{
+  padding-top: 45px;
+}
+#form{
+  text-align: center;
+  padding: 3%;
 
 }
-
-fas fa-user-friends {
-  margin-top: -1.5%;
-  margin-left: -1.5%;
-  position: absolute;
-}
-
-.form {
-  background-color: #4654e1;
-  width: 500px;
-  height: 44px;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
 input {
   background-color: rgba(5, 177, 241, 1);
   width: 450px;
@@ -52,7 +101,9 @@ input {
     rgba(135, 195, 49, 1) 0%,
     rgba(7, 178, 238, 1) 65%
   );
-  color: red;
+}
+.btn-outline-success-load{
+  background: linear-gradient(86deg, rgba(135, 195, 49, 1) 0%, rgba(7, 178, 238, 1) 65%);
 }
 
 .btn-outline-success {
@@ -91,7 +142,7 @@ input {
   color: red;
 } */
 
-.efpia{
+.row-efpia{
   background: linear-gradient(
     86deg,
     rgba(135, 195, 49, 1) 0%,
@@ -100,7 +151,11 @@ input {
   text-align: center;
   padding-top: 150px;
   color: darkblue;
+  max-width: 100%;
+
+
 }
 .row-footer{
 background-color: darkblue;
+max-width: 100%;
 }
