@@ -5,15 +5,16 @@
     rgba(3, 77, 140, 1) 0%,
     rgba(5, 177, 241, 1) 60%
   );
-  max-width: 100%;
+  padding-top: 30px;
+  color: white;
+ 
 }
 .col-sm-6 img{
   margin-top: 25px;
-  margin-left: 25px;
+  margin-left: 50px;
 }
-.row-menu{
-  padding-top: 30px;
-  color: white;
+.container-fluid-menu {
+  max-width: 100%;
 }
 .col-sm-4-members-area h6{
   float: left;
@@ -124,7 +125,6 @@ input {
   border-radius: 20px;
   border: 1px solid #2d9fd9;
 }
-
 .btn-outline-success:hover {
   background: linear-gradient(
     86deg,
@@ -136,29 +136,12 @@ input {
 .btn-outline-success-load{
   background: linear-gradient(86deg, rgba(135, 195, 49, 1) 0%, rgba(7, 178, 238, 1) 65%);
 }
-
 .btn-outline-success {
   border-color: gray;
   color: gray;
   height: 50px;
   width: 250px;
 }
-
-/* .section-titleofpage {
-  margin-top: 5%;
-}
-
-.section-titleofpage h6 {
-  color: blue;
-}
-
-.section-titleofpage h6 span {
-  color: darkblue;
-}
--of-page
-.section-titleofpage h3 {
-  color: darkblue;
-} */
 .row .col-sm-12-title-of-content h6{
   margin-top: 100px;
   font-size: 14.6px;
@@ -218,6 +201,7 @@ input {
   max-width: 100%;
   height: 150px;
   text-align: center;
+  margin-top: 150px;
 }
 .justify-content-start{
   margin-left: 50px;
@@ -246,15 +230,14 @@ input {
 .icon{
   padding-bottom: 50px;
   float: right;
-
 }
 .row-footer{
-background-color: darkblue;
-max-width: 100%;
-padding: 40px;
-text-align: center;
-height: 150px;
-color: white;
+  background-color: darkblue;
+  max-width: 100%;
+  padding: 40px;
+  text-align: center;
+  height: 150px;
+  color: white;
 }
 .row-footer .col-sm-4 img{
   margin-top: 25px;
