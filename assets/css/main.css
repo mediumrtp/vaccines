@@ -1,3 +1,7 @@
+.row{
+--bs-gutter-x: 0rem;
+ 
+}
 .row-menu {
   background: rgb(3, 77, 140);
   background: linear-gradient(
@@ -7,6 +11,7 @@
   );
   padding-top: 30px;
   color: white;
+  --bs-gutter-x: 1.5rem;
  
 }
 .col-sm-6 img{
@@ -114,7 +119,7 @@
 #form{
   text-align: center;
   padding: 3%;
-
+  font-size: 20px;
 }
 input {
   background-color: rgba(5, 177, 241, 1);
@@ -124,6 +129,8 @@ input {
   -moz-border-radius: 20px;
   border-radius: 20px;
   border: 1px solid #2d9fd9;
+  font-size: 10px;
+  padding-left: 30px;
 }
 .btn-outline-success:hover {
   background: linear-gradient(
@@ -131,7 +138,13 @@ input {
     rgba(135, 195, 49, 1) 0%,
     rgba(7, 178, 238, 1) 65%
   );
-  border-radius: 5px;
+}
+.btn-outline-success:focus {
+  background: linear-gradient(
+    86deg,
+    rgba(135, 195, 49, 1) 0%,
+    rgba(7, 178, 238, 1) 65%
+  ); 
 }
 .btn-outline-success-load{
   background: linear-gradient(86deg, rgba(135, 195, 49, 1) 0%, rgba(7, 178, 238, 1) 65%);
@@ -141,6 +154,7 @@ input {
   color: gray;
   height: 50px;
   width: 250px;
+  background-color:gainsboro ;
 }
 .row .col-sm-12-title-of-content h6{
   margin-top: 100px;
@@ -156,24 +170,28 @@ input {
   font-family: myriad-pro;
   color:#03356d;
   margin-top: 30px;
+  font: bold;
 }
 .row .col-sm-12-title-of-content p{
   font-size: 24px;
   font-family: myriad-pro;
-  margin-top: 30px;
   color:#03356d;
 }
 .section-titleofpage .row .col-sm-12 p {
-  padding-top: 20px;
   padding-bottom: 20px;
   border-bottom-style: solid;
   border-bottom-width: medium;
   border-bottom-color:#c0d5ea;
- 
 }
 .row-contenttype {
-  margin-top:50px;
+  margin-top:100px;
   text-align: center;
+}
+
+.row-contenttype .col-sm-12 {
+  font-family:myriad-pro; 
+  font-size: 17.3px;
+  margin-top: 20px;
 }
 .col-sm-12 .btn-outline-success-load {
   padding: 1%;
@@ -203,8 +221,12 @@ input {
   text-align: center;
   margin-top: 150px;
 }
-.justify-content-start{
+.row-justify-content-start {
   margin-left: 50px;
+  font-family:myriad-pro; 
+  font-size:  27.3px;
+
+
 }
 .col-md-3 .row img{
   position: absolute;
@@ -248,6 +270,7 @@ input {
 }
 .col-sm-4-midle{
   margin-top: 15px;
+  font-size: 16px;
 }
 .col-sm-4-last{
   margin-top:30px;
