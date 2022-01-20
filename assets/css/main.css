@@ -21,6 +21,9 @@
 .container-fluid-menu {
   max-width: 100%;
 }
+.col-sm-4-members-area{
+  padding-left: 50px;
+}
 .col-sm-4-members-area h6{
   float: left;
   color: white;
@@ -36,6 +39,9 @@
   margin-top: 20px;
   position: absolute;
   font-size: 17.3px;
+}
+.col-sm-4-menu{
+  margin-left: 530px;
 }
 .col-sm-4-menu h6{
   float: left;
@@ -117,9 +123,34 @@
   padding-top: 45px;
 }
 #form{
-  text-align: center;
-  padding: 3%;
+  /* text-align: center; */
+  padding-top: 80px;
   font-size: 20px;
+  padding-bottom: 50px;
+
+}
+.input-icons i {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 400px; 
+
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  min-width: 40px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  width: 450px;
 }
 input {
   background-color: rgba(5, 177, 241, 1);
@@ -278,3 +309,30 @@ input {
 .fabfa-twitter-t{
   margin-left: 150px;
 }
+
+.col-sm-4-last #tweeter {
+  margin-right: 25px;
+  }
+.col-sm-4-last #fb {
+  margin-left: 25px;
+}
+.col-sm-4-last{
+  padding-left:200px;
+}
+.searchButton {{
+  color: #00B4CC;
+}
+.searchButton {
+  width: 40px;
+  height: 50px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+
